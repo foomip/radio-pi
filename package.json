@@ -1,0 +1,29 @@
+{
+  "name": "radio-pi",
+  "version": "0.0.1",
+  "description": "Radio PI Smartcar music player",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "./node_modules/.bin/node-sass --compact --recursive stylesheets/ --output static/ --source-map true --include-path ./node_modules && next build",
+    "sass": "./node_modules/.bin/node-sass --watch --recursive stylesheets/ --output static/ --source-map true --include-path ./node_modules",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "Nelson Pascoal",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "express": "^4.15.2",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^2.3.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "semantic-ui-react": "^0.68.3",
+    "socket.io": "^1.7.4",
+    "socket.io-client": "^1.7.4"
+  },
+  "devDependencies": {
+    "bourbon": "^4.3.4",
+    "node-sass": "^4.5.2"
+  }
+}
