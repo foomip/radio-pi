@@ -10,13 +10,14 @@ export default class MenuDesktopComponent extends React.Component {
           <a className='toc item'>
             <i className='sidebar icon'></i>
           </a>
-          <a className={`${pathName === '/' ? 'active ' : ''}item`}>
+          <a className={`${pathName === '/' ? 'active ' : ''}item`} href='/'>
             <i className='home icon big' />
           </a>
           <div className='right item'>
             <a
-              className='ui button icon black'
-              title='Configure rapi-pi'>
+              href='/settings'
+              className={`ui button icon black${pathName === '/settings' ? ' active' : ''}`}
+              title='Configure radio-pi'>
               <i className='setting icon large' />
             </a>
           </div>

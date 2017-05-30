@@ -12,7 +12,9 @@ export default class IndexComponent extends React.Component {
         </h1>
         <img className="radio-pi-logo" src='/static/images/car-radio-logo.png' />
         <h2>Let's get your system set up!</h2>
-        <div className="ui huge primary button">Get Started <i className="right arrow icon"></i></div>
+        <a className="ui huge primary button" href="/settings">
+          Get Started <i className="right arrow icon"></i>
+        </a>
       </div>
     )
   }
@@ -21,7 +23,7 @@ export default class IndexComponent extends React.Component {
     return (
       <BodyWrapperComponent { ...this.props }
         masthead={this.renderMasthead()}
-        style={{height: '100vh'}}
+        style={{height: '100vh', minHeight: '65rem'}}
       >
       </BodyWrapperComponent>
       //   <div className="ui vertical stripe quote segment">

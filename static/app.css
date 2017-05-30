@@ -75,4 +75,10 @@ img.radio-pi-logo {
   width: 90%;
   border-radius: 50%; }
 
+.ui.inverted.header.settings-header {
+  width: 100%; }
+
+.inverted.column.settings-card .ui.card {
+  margin: auto; }
+
 /*# sourceMappingURL=app.css.map */
