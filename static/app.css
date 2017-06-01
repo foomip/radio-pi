@@ -81,4 +81,17 @@ img.radio-pi-logo {
 .inverted.column.settings-card .ui.card {
   margin: auto; }
 
+.wizard-settings .wizard-header {
+  width: 100%; }
+
+.wizard-settings .column.settings-info {
+  margin: auto; }
+
+.wizard-settings .column.settings-panel {
+  margin: auto;
+  max-width: 35rem;
+  border-radius: 15rem; }
+  .wizard-settings .column.settings-panel .image img {
+    width: 90%; }
+
 /*# sourceMappingURL=app.css.map */

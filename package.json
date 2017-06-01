@@ -20,7 +20,8 @@
     "react-dom": "^15.5.4",
     "semantic-ui-react": "^0.68.3",
     "socket.io": "^1.7.4",
-    "socket.io-client": "^1.7.4"
+    "socket.io-client": "^1.7.4",
+    "video.js": "^5.19.2"
   },
   "devDependencies": {
     "bourbon": "^4.3.4",
